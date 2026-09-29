@@ -1,6 +1,6 @@
 # Walke Boost
 
-A client-side FPS optimizer that's **reversible**. Turn it on to strip everything expensive off your render; turn it off and the game looks *exactly* like it did before — because it snapshots every value it touches and puts them back.
+A client side FPS optimizer that's **reversible**. Turn it on to strip everything expensive off your render turn it off and the game looks *exactly* like it did before because it snapshots every value it touches and puts them back.
 
 Most "fps boost" scripts nuke your game one-way and you have to rejoin to undo them. This one has a real off switch.
 

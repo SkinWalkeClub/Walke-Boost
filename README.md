@@ -1,10 +1,11 @@
 # Walke Boost
+(I was lazy to make a logo so yeah lol)
 
 A client side FPS optimizer that's **reversible**. Turn it on to strip everything expensive off your render turn it off and the game looks *exactly* like it did before because it snapshots every value it touches and puts them back.
 
 Most "fps boost" scripts nuke your game one-way and you have to rejoin to undo them. This one has a real off switch.
 
-## Why it's different
+## Why it's different than a normal Boost Script Sonion
 
 - **Reversible** — every changed property is saved and restored on `Boost.restore()`. No rejoin to undo.
 - **Live** — parts that stream in *after* you turn it on get optimized too (hooks `DescendantAdded`).
